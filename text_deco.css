@@ -1,0 +1,82 @@
+h1 {
+     color:black;
+text-decoration-color: blue;
+vertical-align: middle;
+text-decoration-style: none;
+text-decoration: overline;
+text-shadow: 2px red;}
+
+h2 {text-decoration-line: line-through;}
+h3{text-decoration-line: underline;}
+p{text-decoration: overline underline;}
+
+
+
+.submitt{
+    background-color: #4eaf6f;
+    color: wheat;
+    padding: 14px 25px;
+    margin:5rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.a{
+    list-style: square;
+
+}
+
+.b {list-style: upper-alpha;
+}
+
+.c{
+    list-style:lower-roman;
+}
+
+.image {
+border-radius: 20000px;
+width: 400px;
+height: 400px;
+display: block;
+margin-top: 10px;}
+
+
+
+
+/* Container for the icons */
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    width: 50%; /* You can adjust the width to fit your design */
+}
+
+/* Style for individual icons */
+.social-icon {
+    font-size: 50px; /* Icon size */
+    margin: 20px;    /* Space between icons */
+    color: #333;     /* Default color */
+    transition: all 0.3s ease-in-out; /* Smooth hover transition */
+}
+
+/* Hover effect for icons */
+.social-icon:hover {
+    color: #0077b5;  /* Change color to blue (LinkedIn color) on hover */
+    transform: scale(1.1); /* Slightly increase size on hover */
+}
+
+/* Specific colors for each social media icon */
+.social-icon.mail {
+    color: #4eaf6f; /* Custom color for mail */
+}
+
+.social-icon.gmail {
+    color: #db4437; /* Gmail red color */
+}
+
+.social-icon.twitter {
+    color: #1da1f2; /* Twitter blue */
+}
+
+.social-icon.linkedin {
+    color: #0077b5; /* LinkedIn blue */
+}
